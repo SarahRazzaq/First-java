@@ -59,9 +59,6 @@ const account = {
             this.balance = this.balance - amount;
             alert("New balance " + this.balance)
         }
-        else {
-            alert ("Amount is unvalid. Please enter a valid amount.");
-        }
     },
     getAccountName: function () {
         return this.accountName
